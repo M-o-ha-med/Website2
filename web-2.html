@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nugas Cik!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Tailwind configuration */
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+    </style>
+</head>
+<body class="bg-red-500 text-gray-800">
+
+    <header class="bg-orange-300 shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-lg font-bold">
+                <img src="https://logos.textgiraffe.com/logos/logo-name/Joki-designstyle-jungle-m.png" width=100dp>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-red-600">Home</a></li>
+		    <li><a href="#AboutUs" class="hover:text-red-600">About Us</a></li>
+		    <li><a href="#testimonials" class="hover:text-red-600">testimonial</a></li>
+                    <li><a href="#contact" class="hover:text-red-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <section class="text-white py-20" style="background-color:#E3390C">
+        <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Hasil Mantap ,  Hanya Gocap!</h1>
+                <p class="mb-6">Selamat datang di website kami !</p>
+                <a href="#contact" class="bg-black text-700 font-semibold py-3 px-6 rounded hover:bg-white-200 transition duration-300">Get Started</a>
+            </div>
+         
+        </div>
+    </section>
+
+    <section id="AboutUs" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-10">About Us</h2>
+<p class="text-2xl font-normal mb-10">Kami adalah perusahaan joki tugas yang berbasis di Indonesia dan telah membantu lebih dari 10.000+ pelajar dan pegawai dalam menyelesaikan tugas mereka.  </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl mb-4">Terpercaya</h3>
+                    <p class="text-gray-600 mb-4">Kami telah mengurus lebih dari 10.000 pelanggan dengan tingkat kepuasan yang tinggi dan telah berjalan selama 20 tahun sejak tahun 2004.</p>
+                    <a href="#" class="text-red-600 hover:text-red-800">Learn More &rarr;</a>
+                </div>
+               
+                <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl mb-4">Akuntabel</h3>
+                    <p class="text-gray-600 mb-4">Kami menyewa para profesor dan Doktor beserta tenaga ahli yang telah berkarir lebih dari 5 tahun di bidangnya untuk menghasilkan jawaban dapat dipertanggung jawabkan.</p>
+                    <a href="#" class="text-red-600 hover:text-red-800">Learn More &rarr;</a>
+                </div>
+           
+                <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl mb-4">Kredibel</h3>
+                    <p class="text-gray-600 mb-4">hasik pekerjaan yang kami hasilkan berkualitas tinggi , dikerjakan oleh para profesional di bidang tersebut selama bertahun-tahun.</p>
+                    <a href="#" class="text-red-600 hover:text-red-800">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="testimonials" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">Testimoni</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Testimonial 1 -->
+            <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                <p class="italic mb-4">"Layanan ini sangat membantu saya dalam menyelesaikan tugas-tugas akademik yang sangat menumpuk. Berkat bantuan joki ini, saya bisa tetap fokus pada pekerjaan lain tanpa harus khawatir dengan tenggat waktu. Sungguh layanan yang luar biasa!"</p>
+                <h4 class="font-bold">- Aditya Pratama, Mahasiswa Teknik</h4>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                <p class="italic mb-4">"Saya sangat terbantu dengan layanan ini, terutama dalam menyelesaikan laporan pekerjaan kantor yang rumit. Prosesnya cepat dan hasilnya sangat memuaskan. Joki ini benar-benar profesional dan efisien!"</p>
+                <h4 class="font-bold">- Siti Rahmawati, Staf Administrasi</h4>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="bg-white p-6 rounded shadow-md hover:shadow-xl transition-shadow duration-300">
+                <p class="italic mb-4">"Saya merasa terbantu dengan joki ini dalam mengerjakan tugas kuliah yang sulit. Hasilnya sangat memuaskan dan sesuai dengan harapan saya. Jasa joki ini adalah solusi terbaik bagi mahasiswa yang kesulitan membagi waktu antara belajar dan pekerjaan sampingan!"</p>
+                <h4 class="font-bold">- Agus Widodo, Mahasiswa Akuntansi</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10">Contact Us</h2>
+            <div class="max-w-lg mx-auto">
+                <form action="#" method="POST" class="space-y-6">
+                    <!-- Name Input -->
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <!-- Email Input -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <!-- Message Textarea -->
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-orange-300 text-red-700 py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h3 class="text-lg font-semibold">Follow Us</h3>
+                    <ul class="flex space-x-6 mt-2">
+                        <li><a href="#" class="hover:text-red-400">Facebook</a></li>
+                        <li><a href="#" class="hover:text-red-400">Twitter</a></li>
+                        <li><a href="#" class="hover:text-red-400">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>&copy; 2024 CV.NUGASIA CIKIRIL. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
